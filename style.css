@@ -1,3 +1,33 @@
-h1{
-    color: red;
+body{
+    margin: 0;
+}
+
+.navLogo{
+    width: 60px;
+    padding-left: 30px;
+}
+
+.navLinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    position: fixed;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(1, 1, 108);
+}
+
+.link:hover{
+    color: blue;
 }
